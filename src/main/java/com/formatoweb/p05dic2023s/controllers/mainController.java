@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class mainController {
     @GetMapping("/main")
     public String getMain(){
-        return "Llegando a main";
+        return "Llegando a main George";
     }
 }
